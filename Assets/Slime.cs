@@ -12,12 +12,14 @@ public class Slime : MonoBehaviour
     private float atk = 20;
     private float cure = 10;
 
+
+
     /// <summary>
     /// 攻擊
     /// </summary>
     public void Attack()
     {
-        bat.Damage(atk);
+       bat.Damage(atk);
     }
     /// <summary>
     /// 受傷
@@ -25,17 +27,18 @@ public class Slime : MonoBehaviour
     /// <param name="damage"></param>
     public void Damage(float damage)
     {
-        hp -= damage;// hp = hp - damage
-        message.text = gameObject.name + " - 受到傷害:" + damage;
-        message.text += "\n" + gameObject.name + " - 血量剩下:" + hp;
+        hp -= damage;// hp= hp - damage; = 200史萊姆的血 - 50蝙蝠的攻擊力
+        message.text = "<b><color=#94A013>" + gameObject.name + "</color></b> - 受到傷害:" + damage;
+        message.text += "\n<b><color=#94A013>" + gameObject.name + "</color></b> - 血量剩下:" + hp;
     }
+    
     /// <summary>
     /// 治癒
     /// </summary>
     public void Cure()
     {
         hp += cure;
-        message.text = gameObject.name + " - 受到治癒:" + cure;
-        message.text += "\n" + gameObject.name + " - 血量剩下:" + hp;
+        message.text = "<b><color=#94A013>" + gameObject.name + "</color></b> - 受到治癒:" + cure;
+        message.text += "\n<b><color=#94A013>" + gameObject.name + "</color></b> - 血量剩下:" + hp;
     }
 }

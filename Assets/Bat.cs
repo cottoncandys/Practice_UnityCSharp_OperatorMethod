@@ -29,7 +29,7 @@ public class Bat : MonoBehaviour
     public void Attack()
     {
         // 呼叫 史萊姆 受傷方法(蝙蝠攻擊力)
-        slime.Damage(atk);
+        slime.Damage(atk);//(要接收的傷害值)
     }
 
     /// <summary>
@@ -38,9 +38,9 @@ public class Bat : MonoBehaviour
     /// <param name="damage">要接收的傷害值</param>
     public void Damage(float damage)
     {
-        hp -= damage;// hp = hp - damage
-        message.text = gameObject.name + " - 受到傷害:" + damage;
-        message.text ="\n" + gameObject.name + " - 血量剩下:" + hp;
+        hp -= damage;// hp = hp - damage 將對方的攻擊力扣掉
+        message.text = "<b><color=#213022>" + gameObject.name + "</color></b> - 受到傷害:" + damage;
+        message.text += "\n<b><color=#213022>" + gameObject.name + "</color></b> - 血量剩下:" + hp;
     }
 
     /// <summary>
@@ -49,7 +49,7 @@ public class Bat : MonoBehaviour
     public void Cure()
     {
         hp += cure;
-        message.text = "<color=#243224>" + gameObject.name + "</color> - 受到治癒:" + cure;
-        message.text += "\n<color=#243224>" + gameObject.name + "</color> - 血量剩下:" + hp;
+        message.text = "<b><color=#213022>" + gameObject.name + "</color></b> - 受到治癒:" + cure;
+        message.text += "\n<b><color=#213022>" + gameObject.name + "</color></b> - 血量剩下:" + hp;
     }
 }

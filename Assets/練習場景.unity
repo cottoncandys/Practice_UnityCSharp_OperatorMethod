@@ -202,7 +202,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 366460354}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 508359593}
+        m_MethodName: Attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &366460354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,7 +405,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 457743847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 770338503}
+        m_MethodName: Cure
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &457743847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -712,7 +734,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 681412256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 508359593}
+        m_MethodName: Cure
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &681412256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,7 +1198,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8759\u8760\u653B\u64CA"
+  m_Text: "\u53F2\u840A\u59C6\u653B\u64CA"
 --- !u!222 &1150720061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1406,7 +1439,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1864469991}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 770338503}
+        m_MethodName: Attack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1864469991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1511,7 +1555,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8759\u8760\u88DC\u8840"
+  m_Text: "\u53F2\u840A\u59C6\u88DC\u8840"
 --- !u!222 &1881509295
 CanvasRenderer:
   m_ObjectHideFlags: 0
